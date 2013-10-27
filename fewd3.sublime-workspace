@@ -3,20 +3,124 @@
 	{
 		"selected_items":
 		[
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"html",
+				"html	html"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "homework/Week2/fashion_blog_part1/index.html",
+			"settings":
+			{
+				"buffer_size": 2259,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "homework/Week2/fashion_blog_part1/style.css",
+			"settings":
+			{
+				"buffer_size": 471,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 327.0,
+		"height": 87.0,
 		"selected_items":
 		[
 			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git stash pop",
+				"Git: Stash Pop"
+			],
+			[
+				"git cu",
+				"Git: Custom Command"
+			],
+			[
+				"git stash",
+				"Git: Stash Changes"
+			],
+			[
+				"git diff",
+				"Git: Diff All"
+			],
+			[
+				"git di",
+				"Git: Diff All"
+			],
+			[
+				"unsta",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"add ",
+				"Git: Add Current File"
+			],
+			[
 				"add",
-				"Git: Add..."
+				"Git: Add Current File"
+			],
+			[
+				"git unst",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"diff",
+				"Git: Diff All"
+			],
+			[
+				"git stage",
+				"Git: Diff Staged"
+			],
+			[
+				"unstage",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"git un",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"git diff ",
+				"Git: Diff Staged"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"gommit",
+				"Git: Commit"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
 			],
 			[
 				"comi",
@@ -25,10 +129,6 @@
 			[
 				"quick",
 				"Git: Quick Commit"
-			],
-			[
-				"push",
-				"Git: Push"
 			],
 			[
 				"git qui",
@@ -44,10 +144,6 @@
 			],
 			[
 				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"inst",
 				"Package Control: Install Package"
 			],
 			[
@@ -76,6 +172,11 @@
 	},
 	"file_history":
 	[
+		"/Users/szs/FEWD_HK_3/lesson1/starter_code/cookie_recipe/index.html",
+		"/Users/szs/FEWD_HK_3/homework/week1/Resume/style.css",
+		"/Users/szs/Desktop/untitled.html",
+		"/Users/szs/FEWD_HK_3/homework/week1/Resume/resume.html",
+		"/Users/szs/FEWD_HK_3/homework/week1/index.html",
 		"/Users/szs/Desktop/BUPLAS/index.html",
 		"/Users/szs/Desktop/BUPLAS/readme.md",
 		"/Users/szs/Downloads/noun_project_5424.svg",
@@ -101,6 +202,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\n		  ",
+			"		  \n",
+			"\n		  ",
 			"- []",
 			"\\n-\\ "
 		],
@@ -120,8 +224,70 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "homework/Week2/fashion_blog_part1/index.html",
+					"settings":
+					{
+						"buffer_size": 2259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								563,
+								563
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 188.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "homework/Week2/fashion_blog_part1/style.css",
+					"settings":
+					{
+						"buffer_size": 471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -142,11 +308,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -171,6 +344,10 @@
 		"selected_items":
 		[
 			[
+				"starter",
+				"lesson1/starter_code/cookie_recipe/index.html"
+			],
+			[
 				"in",
 				"index.html"
 			]
@@ -189,6 +366,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 206.0,
 	"status_bar_visible": true
 }
