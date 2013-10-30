@@ -1,17 +1,38 @@
-
-article, section, aside, nav, header, footer { 
-	display: block;
+body {
+	font-family: "Open Sans", sans-serif;
 }
 
 #wrapper {
-	width: 750px;
+	width: 1000px;
 	margin: 0 auto;
+}
 
+header {
+
+}
+
+main {
+	float: left;
+	width: 700px;
+	padding-right: 25px;
+}
+
+aside {
+	float: left;
+	width: 300px;
+	margin-top: 100px;
+}
+
+footer {
+	clear: left;
+	font-size: 17px;
+	color: #CCCCCD;
+	padding-top: 30px;
+	padding-bottom: 80px;
 }
 
 header h1 a {
 	color: #CC0000;
-	font-family:'Open Sans', serif;
 	font-size: 45px;
 	text-decoration: none;
 	float: left;
@@ -21,7 +42,6 @@ header h1 a {
 
 h2 {
 	color: #CCCCCD;
-	font-family: 'Open Sans', serif;
 	font-size: 25px;
 	padding: 0px;
 	display: inline-block;
@@ -40,7 +60,6 @@ h3 {
 
 h4 a {
 	color: #000000;
-	font-family: 'Open Sans', serif;
 	font-size: 30px;
 	text-decoration: none;
 	margin: -20px 0px 20px 0px;
@@ -64,16 +83,6 @@ a.next {
 	text-decoration: none;
 }
 
-a.more {
-	text-align:right;
-	display: block;
-	color: #CC0000;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 15px;
-	padding: 0px;
-	text-decoration: none;
-}
-
 hr {
 	border: 0;
 	height: 0;
@@ -84,7 +93,6 @@ hr {
 
 
 article p {
-	font-family: 'Open Sans';
 	font-size: 17px;
 	line-height: 27px;
 	color: #383A3B;
@@ -100,10 +108,9 @@ article p:first-letter{
 }
 
 aside p {
-	font-family: 'Open Sans';
-	font-size: 14px;
+	font-size: 16px;
 	color: #71787A;
-	line-height: 21px;
+	line-height: 25px;
 }
 
 img {
@@ -112,11 +119,12 @@ img {
 	padding-bottom: 5px;
 }
 
-#box {
+#advert {
 	font: 'Nixie One', Serif;
 	font-size: 75px;
+	text-align: center;
 	color: #A2A5A6;
-	width: 200px;
+	width: auto;
 	margin: 30px 10px;
 	border: solid 20px #CCCECF;
 	padding: 30px;
@@ -124,17 +132,19 @@ img {
 }
 
 .popularposts li a {
-	font-family: 'Open Sans';
 	font-size: 15px;
 	color: #CC0000;
 	text-decoration: none;
 }
 
+.popularposts li{
+	color: #71787A;
+}
+
 header nav a {
 	color: #DADADB;
-	font-family: 'Open Sans', serif;
 	font-size: 17px;
-	padding: 12px 27px;
+	padding: 12px 47px;
 	text-decoration: none;
 	background: #000000;
 	border-right: 1px solid #FFFFFF;
@@ -154,7 +164,6 @@ footer nav li {
 footer nav li a{
 	list-style-type: none;
 	color: #CC0000;
-	font-family: 'Open Sans', serif;
 	font-size: 17px;
 	margin: 0;
 	padding-right: 5px;
@@ -179,14 +188,6 @@ footer nav li.last a {
 	clear: both;
 }
 
-footer {
-	font-family: 'Open Sans';
-	font-size: 17px;
-	color: #CCCCCD;
-	padding-top: 30px;
-	padding-bottom: 80px;
-
-}
 
 * {
      -moz-box-sizing: border-box; /* Firexfox */
