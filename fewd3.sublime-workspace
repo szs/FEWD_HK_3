@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding"
+			],
+			[
+				"p",
+				"padding-left"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
 				"a",
 				"a	<a>"
 			],
@@ -19,7 +39,7 @@
 			"file": "homework/Week2/fashion_blog_part1/index.html",
 			"settings":
 			{
-				"buffer_size": 2259,
+				"buffer_size": 3009,
 				"line_ending": "Unix"
 			}
 		},
@@ -27,7 +47,7 @@
 			"file": "homework/Week2/fashion_blog_part1/style.css",
 			"settings":
 			{
-				"buffer_size": 471,
+				"buffer_size": 2116,
 				"line_ending": "Unix"
 			}
 		}
@@ -35,9 +55,29 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 107.0,
 		"selected_items":
 		[
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"",
+				"Convert Case: Upper Case"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"git push",
 				"Git: Push"
@@ -71,10 +111,6 @@
 				"Git: Add Current File"
 			],
 			[
-				"add",
-				"Git: Add Current File"
-			],
-			[
 				"git unst",
 				"Git: Reset (unstage) All"
 			],
@@ -103,10 +139,6 @@
 				"Git: Diff Staged"
 			],
 			[
-				"push",
-				"Git: Push"
-			],
-			[
 				"gommit",
 				"Git: Commit"
 			],
@@ -117,10 +149,6 @@
 			[
 				"git comm",
 				"Git: Commit"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
 			],
 			[
 				"comi",
@@ -172,6 +200,7 @@
 	},
 	"file_history":
 	[
+		"/Library/Preferences/Parallels/licenses.xml",
 		"/Users/szs/FEWD_HK_3/lesson1/starter_code/cookie_recipe/index.html",
 		"/Users/szs/FEWD_HK_3/homework/week1/Resume/style.css",
 		"/Users/szs/Desktop/untitled.html",
@@ -202,6 +231,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nav",
 			"\n		  ",
 			"		  \n",
 			"\n		  ",
@@ -232,15 +262,15 @@
 					"file": "homework/Week2/fashion_blog_part1/index.html",
 					"settings":
 					{
-						"buffer_size": 2259,
+						"buffer_size": 3009,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								563,
-								563
+								320,
+								320
 							]
 						],
 						"settings":
@@ -249,7 +279,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 188.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -265,15 +295,15 @@
 					"file": "homework/Week2/fashion_blog_part1/style.css",
 					"settings":
 					{
-						"buffer_size": 471,
+						"buffer_size": 2116,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								212,
-								212
+								153,
+								153
 							]
 						],
 						"settings":
@@ -283,7 +313,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1579.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -331,7 +361,7 @@
 	"menu_visible": true,
 	"output.git":
 	{
-		"height": 430.0
+		"height": 106.0
 	},
 	"replace":
 	{
@@ -365,7 +395,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 206.0,
 	"status_bar_visible": true
 }
