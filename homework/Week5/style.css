@@ -1,0 +1,104 @@
+#wrapper {
+	width: 800px;
+	margin: auto;
+}
+
+body {
+	font-family: 'Share Tech', serif;
+}
+
+header {
+	width: auto;
+	height: 120px;
+	background-color: #000000;
+	display: block;
+	border-bottom: 4px solid #EBE157
+}
+
+
+main {
+
+
+}
+
+aside {
+
+}
+
+div {
+
+
+}
+
+footer {
+
+
+}
+
+/*-----------------------------*/
+
+
+
+h1 {
+	color: #EBE157;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-left: 20px
+}
+
+h2 {
+	font-family:
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #B1B1B3;
+}
+
+header nav a {
+	font-size: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
+	padding-right: 15px;
+	margin-right: 5px;
+	float: right;
+}
+
+
+/*-----------------------------*/
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
+.underline {
+	text-decoration: underline;
+
+}
+
+.clear:before, .clear:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+	
+.clear:after {
+	clear: both;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
