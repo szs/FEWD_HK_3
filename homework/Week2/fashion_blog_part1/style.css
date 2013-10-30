@@ -1,4 +1,7 @@
 
+article, section, aside, nav, header, footer { 
+	display: block;
+}
 
 #wrapper {
 	width: 750px;
@@ -11,13 +14,19 @@ header h1 a {
 	font-family:'Open Sans', serif;
 	font-size: 45px;
 	text-decoration: none;
+	float: left;
+	padding-right: 25px;
+	display: inline-block;
 }
 
 h2 {
-	color: #000000;
+	color: #CCCCCD;
 	font-family: 'Open Sans', serif;
 	font-size: 25px;
 	padding: 0px;
+	display: inline-block;
+	clear: right;
+
 }
 
 
