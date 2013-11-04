@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family: 'Share Tech', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -12,17 +12,11 @@ header {
 	height: 120px;
 	background-color: #000000;
 	display: block;
-	border-bottom: 4px solid #EBE157
 }
 
-
-main {
-
-
-}
 
 aside {
-
+	width: 266px;
 }
 
 div {
@@ -30,13 +24,14 @@ div {
 
 }
 
+#overlay {
+	position: relative;
+}
+
 footer {
 
 
 }
-
-/*-----------------------------*/
-
 
 
 h1 {
@@ -47,12 +42,25 @@ h1 {
 }
 
 h2 {
-	font-family:
-	margin: auto;
+	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
 	background-color: #B1B1B3;
+	display: inline;
+	padding: 20px 141px;
+}
+
+.strikethrough {
+	color: gray;
+}
+
+.underline {
+	border-bottom: 4px solid gray;
+	border-bottom-color: yellow;
+}
+
+header div {
+	padding-bottom: 20px;
+	border-bottom: 4px solid #EBE157;
 }
 
 header nav a {
@@ -66,20 +74,16 @@ header nav a {
 }
 
 
-/*-----------------------------*/
-
 img {
 	width: 100%;
 	height: auto;
+	float: right;
+	clear: right;
+	margin-top: -28px;
 }
 
 .strikethrough {
 	text-decoration: line-through;
-}
-
-.underline {
-	text-decoration: underline;
-
 }
 
 .clear:before, .clear:after {
