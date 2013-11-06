@@ -91,7 +91,7 @@ var age = 21;
 var name = "Jo";
 
 // Re-Assignment
-name = Amir;
+name = "Amir";
 ```
 
 
