@@ -95,7 +95,7 @@ function addAndPrint(num1, num2) {
 ## Functions
 <aside class="notes"></aside>
 
-**Syntax**
+**The Return**
 
 ```
 function functionName(arg1, arg2) {
@@ -173,8 +173,8 @@ function calculateTax(income, allowances) {
 
 
 
-# Anoymous function
-<aside class="notes">Both ~ 30 Min</aside>
+# Anonymous function
+<aside class="notes">Dialogue ~ 15 Min</aside>
 
 Sometime we could write a function without give it a name.
 
@@ -188,7 +188,7 @@ Example:
 
 
 
-# Anoymous function
+# Anonymous function
 <aside class="notes"></aside>
 
 ```
@@ -211,7 +211,7 @@ function updateBgBlue() {
 
 
 
-# Anoymous function
+# Anonymous function
 <aside class="notes"></aside>
 
 Using anonymous function can save some codes.
