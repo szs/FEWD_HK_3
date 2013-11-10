@@ -19,7 +19,7 @@ Kit Yuen & Mart van de Ven
 
 
 
-## HipCht
+## HipChat
 <aside class="notes">Mart (3 Min)</aside>
 
 [Web Client](https://asiawebdev.hipchat.com/chat?focus_jid=73792_fewd_hk_3@conf.hipchat.com)
