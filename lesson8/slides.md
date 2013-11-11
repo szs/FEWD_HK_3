@@ -11,10 +11,18 @@ Kit Yuen & Mart van de Ven
 ## Agenda
 <aside class="notes"></aside>
 
+* Hipchat Demo
 * Functions
 * Cash Register
 * Rock Paper Scissors
 * Anonymous functions
+
+
+
+## HipChat
+<aside class="notes">Mart (3 Min)</aside>
+
+[Web Client](https://asiawebdev.hipchat.com/chat?focus_jid=73792_fewd_hk_3@conf.hipchat.com)
 
 
 
@@ -23,7 +31,7 @@ Kit Yuen & Mart van de Ven
 
 * What is a function?
   * A well defined task
-  * Resuseable
+  * Reuseable
   * A function could return a value for further process
 * Why we need a function?
   * The same task could be shared in different parts of the program
@@ -44,10 +52,10 @@ function functionName(arg1, arg2) {
 
 ```
 
-* keyword: function (just like var when declaring variable)
+* keyword: _function_ (just like _var_ when declaring variable)
 * function name: functionName
 * input arguments: arg1, arg2 (Mutiple values are allowed)
-* body of fucntion: the code inside {} is executed when the function is called (similar to the {} in "if" and "for" statement.)
+* body of function: the code inside {} is executed when the function is called (similar to the {} in "if" and "for" statement.)
 
 
 
@@ -63,9 +71,10 @@ function helloWorld() {
 ```
 
 * How to run this function in console?
-  * helloWorld;
+  * helloWorld; 
   * OR
   * helloWorld();
+* The first is a _reference_ the latter a function _call_
 
 
 
@@ -86,7 +95,7 @@ function addAndPrint(num1, num2) {
 ## Functions
 <aside class="notes"></aside>
 
-**Syntax**
+**The Return**
 
 ```
 function functionName(arg1, arg2) {
@@ -164,8 +173,8 @@ function calculateTax(income, allowances) {
 
 
 
-# Anoymous function
-<aside class="notes">Both ~ 30 Min</aside>
+# Anonymous function
+<aside class="notes">Dialogue ~ 15 Min</aside>
 
 Sometime we could write a function without give it a name.
 
@@ -179,7 +188,7 @@ Example:
 
 
 
-# Anoymous function
+# Anonymous function
 <aside class="notes"></aside>
 
 ```
@@ -202,7 +211,7 @@ function updateBgBlue() {
 
 
 
-# Anoymous function
+# Anonymous function
 <aside class="notes"></aside>
 
 Using anonymous function can save some codes.
