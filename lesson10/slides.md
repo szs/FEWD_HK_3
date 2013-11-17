@@ -11,14 +11,22 @@ Kit Yuen & Mart van de Ven
 ## Agenda
 <aside class="notes"></aside>
 
+* Review of Homework
 * Collection Of Data
 * Manipulating Collections
 * Carousel
 
 
 
+## Homework Review
+<aside class="notes">Mart ~ 15 min</aside>
+
+![JavaScript Code](https://github.com/szs/FEWD_HK_3/blob/gh-pages/homework/Week5/divided-times-obfuscated/js/main.js)
+
+
+
 ## An array is a collection of data
-<aside class="notes">kit (30 mins)</aside>
+<aside class="notes">kit ~ 20 min</aside>
 
 ![accordion folder](../assets/images/unit_1/accordian.jpg)
 
@@ -189,7 +197,7 @@ var fruits = new Array();
 
 
 ## Iterate an array
-<aside class="notes">kit (30 mins)</aside>
+<aside class="notes">Mart ~ 20 min</aside>
 
 ### Array.forEach(Anonymous function)
 
@@ -240,7 +248,7 @@ images.forEach(function(element, index){
 
 
 ## Image Carousel
-<aside class="notes">both (100 mins)</aside>
+<aside class="notes">Both ~ 90 min</aside>
 
 ![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
 
@@ -250,5 +258,5 @@ Implement the feature as follow.
 
 
 
-## How variable works?
-<aside class="notes">kit (20 mins)</aside>
+## How variables work?
+<aside class="notes">Kit ~ 20 min</aside>
