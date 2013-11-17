@@ -184,6 +184,8 @@ cities.push('LA')
 var fruits = new Array();
 ```
 
+[More on Arrays](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array)
+
 
 
 ## Iterate an array
@@ -243,6 +245,7 @@ images.forEach(function(element, index){
 ![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
 
 Implement the feature as follow.
+
 [Eat Scale](http://ga-students.github.io/FEWD_HK_3/lesson10/starter_code/carousel_obfuscated)
 
 
