@@ -21,7 +21,7 @@ Kit Yuen & Mart van de Ven
 ## Homework Review
 <aside class="notes">Mart ~ 15 min</aside>
 
-![JavaScript Code](https://github.com/szs/FEWD_HK_3/blob/gh-pages/homework/Week5/divided-times-obfuscated/js/main.js)
+[JavaScript Code](https://github.com/szs/FEWD_HK_3/blob/gh-pages/homework/Week5/divided-times-obfuscated/js/main.js)
 
 
 
