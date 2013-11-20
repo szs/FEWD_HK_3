@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"user",
+				"userInput"
+			],
+			[
 				"border",
 				"border-style"
 			],
@@ -88,29 +92,10 @@
 	"buffers":
 	[
 		{
-			"file": "lesson8/homework/rock_paper_scissors/index.html",
-			"settings":
-			{
-				"buffer_size": 948,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lesson8/homework/rock_paper_scissors/css/main.css",
-			"settings":
-			{
-				"buffer_size": 749,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "var human = document.getElementById(\"humanScore\");\nvar computer = document.getElementById(\"computerScore\");\nvar rockBtn = document.getElementById(\"rock\");\nvar paperBtn = document.getElementById(\"paper\");\nvar scissorsBtn = document.getElementById(\"scissors\");\nvar statusMsg = document.getElementById(\"status\");\nvar userInput;\n\n// $GAME_START\n\n// # Get user input\nrockBtn.onclick = rockClicked\npaperBtn.onclick = paperClicked\nscissors.onclick = scissorsClicked\n\n// user_choice = get_user_choice\nfunction rockClicked(){\n  userInput = \"rock\"\n  console.log(userInput);\n}\n\nfunction paperClicked(){\n  userInput = \"paper\"\n  console.log(userInput);\n}\n\nfunction scissorsClicked(){\n  userInput = \"scissors\"\n  console.log(userInput);\n}\n\n// # Get robot input\n\nfunction getRobotInput(){\n  var choices = {\n    1: \"rock\",\n    2: \"paper\",\n    3: \"scissors\",\n  };\n\n  var randomNumber = Math.ceil(Math.random()*3);\n  console.log(randomNumber);\n  console.log(choices[randomNumber]);\n}\n\n// robot_choice = random(paper, scissors, stone)\n\n\n// # Setup the datastore\n// results = initialize(10)\n\n// # User win\n// if (user_choice == scissors AND robot_choice == paper)\n// or (user_choice == stone AND robot_choice == scissors)\n// or (user_choice == paper AND robot_choice == stone)\n//   say \"YOU WIN\"\n//   save(results, \"user\")\n\n// # User lose\n// if (user_choice == paper AND robot_choice == scissors)\n// or (user_choice == scissors AND robot_choice == stone)\n// or (user_choice == stone AND robot_choice == paper)\n//   say \"YOU LOSE\"\n//   save(results, \"robot\")\n\n// # Repeat if draw\n// if (user_choice == robot_choice)\n//   save(results, \"draw\")\n//   GOTO $GAME_START\n// else\n//   say \"GAME OVER\"\n//   # Display recent results\n//   foreach(results as result)\n//     say result\n\nconsole.log(\"test\");",
 			"file": "lesson8/homework/rock_paper_scissors/js/main.js",
-			"file_size": 2052,
-			"file_write_time": 1384178119000000,
 			"settings":
 			{
-				"buffer_size": 1773,
+				"buffer_size": 2460,
 				"line_ending": "Unix"
 			}
 		}
@@ -118,32 +103,52 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 147.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
-				"git diff",
-				"Git: Diff All"
+				"comm",
+				"Git: Commit"
 			],
 			[
-				"stash",
-				"Git: Stash Pop"
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git diff",
+				"Git: Diff All"
 			],
 			[
 				"git custom",
 				"Git: Custom Command"
 			],
 			[
-				"git stash",
-				"Git: Stash Changes"
-			],
-			[
-				"git add",
-				"Git: Add..."
-			],
-			[
 				"git push",
 				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git un",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"stash",
+				"Git: Stash Pop"
+			],
+			[
+				"git stash",
+				"Git: Stash Changes"
 			],
 			[
 				"git commit",
@@ -158,10 +163,6 @@
 				"Git: Commit"
 			],
 			[
-				"add",
-				"Git: Add..."
-			],
-			[
 				"rese",
 				"Git: Reset (hard) HEAD"
 			],
@@ -172,10 +173,6 @@
 			[
 				"push",
 				"Git: Push"
-			],
-			[
-				"git comm",
-				"Git: Commit"
 			],
 			[
 				"git co",
@@ -222,10 +219,6 @@
 				"Git: Reset (unstage) Current File"
 			],
 			[
-				"git un",
-				"Git: Reset (unstage) All"
-			],
-			[
 				"git diff ",
 				"Git: Diff Staged"
 			],
@@ -266,7 +259,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 496.0
+		"width": 580.0
 	},
 	"console":
 	{
@@ -283,6 +276,14 @@
 	},
 	"file_history":
 	[
+		"/Users/szs/Code/FEWD_HK_3/homework/Week6/carousel_obfuscated/css/style.css",
+		"/Users/szs/Code/FEWD_HK_3/homework/Week6/carousel_obfuscated/js/index.js",
+		"/Users/szs/Code/FEWD_HK_3/homework/Week6/carousel_obfuscated/index.html",
+		"/Users/szs/Code/FEWD_HK_3/fewd3.sublime-project",
+		"/Users/szs/Code/FEWD_HK_3/homework/Week6/index.js",
+		"/Users/szs/Code/FEWD_HK_3/homework/Week4/index.html",
+		"/Users/szs/Code/FEWD_HK_3/lesson8/homework/rock_paper_scissors/index.html",
+		"/Users/szs/Code/FEWD_HK_3/lesson8/homework/rock_paper_scissors/css/main.css",
 		"/Users/szs/Code/FEWD_HK_3/homework/Week4/css/normalize.css",
 		"/Users/szs/Code/FEWD_HK_3/homework/Week4/css/reset.css",
 		"/Users/szs/Code/FEWD_HK_3/homework/Week2/fashion_blog_part1/style.css",
@@ -295,6 +296,7 @@
 		"/Users/szs/FEWD_HK_3/homework/week1/index.html",
 		"/Users/szs/Desktop/BUPLAS/index.html",
 		"/Users/szs/Desktop/BUPLAS/readme.md",
+		"/Users/szs/Code/FEWD_HK_3/lesson8/homework/rock_paper_scissors/js/main.js",
 		"/Users/szs/Downloads/noun_project_5424.svg",
 		"/Users/szs/Downloads/gist5715356-ea1c9f9b7b1459f2d8f6f4fba77c63d52e05a700/xkcd.js",
 		"/Users/szs/Downloads/gist5715356-ea1c9f9b7b1459f2d8f6f4fba77c63d52e05a700/index.html",
@@ -360,57 +362,23 @@
 			[
 				{
 					"buffer": 0,
-					"file": "lesson8/homework/rock_paper_scissors/index.html",
+					"file": "lesson8/homework/rock_paper_scissors/js/main.js",
 					"settings":
 					{
-						"buffer_size": 948,
+						"buffer_size": 2460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								472,
-								472
+								344,
+								344
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 255.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "lesson8/homework/rock_paper_scissors/css/main.css",
-					"settings":
-					{
-						"buffer_size": 749,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								208,
-								208
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -423,37 +391,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "lesson8/homework/rock_paper_scissors/js/main.js",
-					"settings":
-					{
-						"buffer_size": 1773,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1015,
-								1015
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 452.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -480,19 +419,12 @@
 				0,
 				2,
 				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.350057879623,
-			0.624515233373,
+			0.5,
 			1.0
 		],
 		"rows":

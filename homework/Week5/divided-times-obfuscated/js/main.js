@@ -1,10 +1,11 @@
 $(function() {
-
+	// User clicks on a button
 	$('nav').on('click', 'li', function(e) {
 
 		var $this = $(this);
-
+		// slide down the img thumbnail
 		slideThumbs($this);
+		// highlight the active section
 		activateBtn($this);
 
 		return false;
@@ -31,8 +32,9 @@ $(function() {
 	}
 
 	function activateBtn (li) {
-		
+		// deselect all the other topics
 		li.siblings('li').removeClass('active');
+		// highlight the selected topic tab
 		li.toggleClass('active');
 
 	}
