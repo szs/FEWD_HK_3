@@ -1,3 +1,9 @@
+$('#switcher').on('click','li', function(e){
+	var color = $(this).attr('id');
+	$('body').attr('class', color);
+})
+
+
 $('#grayButton').click(switchGray);
 $('#whiteButton').click(switchWhite);
 $('#blueButton').click(switchBlue);

@@ -2,9 +2,11 @@ $(function() {
 
   // to do - actually make a tally :)
 
-  // to do - understand all of this :))))
 
 	var counter = 0;
+	var total = 0;
+	// var average = total / ;
+
 	var images = [
 		"images/food1.jpg",
 		"http://lorempixel.com/200/200/food/6",
@@ -14,59 +16,62 @@ $(function() {
 		"http://lorempixel.com/200/200/food/10",
 		"http://lorempixel.com/200/200/food/11"
 	];
-  var backBtn = document.querySelector('button[value="back"]');
-  var skipBtn = document.querySelector('button[value="skip"]');
 
-//show image[0] in #image-to-vote-on
+  	var backBtn = document.querySelector('button[value="back"]');
+  	var skipBtn = document.querySelector('button[value="skip"]');
 
-//If user clicks on the Skip/Back button, use value to executive respective function, remove previous photo
 
-	$('#buttons-wrapper').on('click','button', function(e){
-    if (this.disabled){ return false };
-		counter = increment($(this).val());
-    checkLimits();
-		shiftImage();
-	})
-
-// If user selects rating option, execute skip button, add value to tally
-	$('.your-vote select').on('change', function(e) {
-		// todo
-    e.preventDefault();
-		var $this = $(this);
-		// tally = parseInt($this.val())		
+	$('#buttons-wrapper').on('click', '.button', function(e) {
+		if (this.disabled){ return false };
+			counter = increment($(this).val());
+			checkLimits();
+			shiftImage();
 	});
 
+	// $('select').change(function() {
+	// 	total = total + parseInt($(this).val());
+	// 	console.log = ("total");
+	// });
+
+
 	function shiftImage(){
-		$('#container > img').attr('src', images[counter]);
+		$('#container >img').attr('src', images[counter]);
 	}
 
 	function increment(val){
 		var increment = (val == 'back') ? -1 : 1;
-		return (counter + increment);	
+		return (counter + increment);
 	}
 
-  function checkLimits(){
-    isBackBtnDisabled();
-    isFinalImageShown();
-  }
+	function checkLimits (){
+		isBackBtnDisabled();
+		isFinalImageShown();
+	}
 
-  function isFinalImageShown(){
-    if (counter == counter.length) {
-      // todo
-    } else {
-    }
-  }
+	function isFinalImageShown(){
+		if (counter == counter.length) {
+			skipBtn.disabled = true;
+			$('#final-message').text('You have reached the end. Total deliciousness score was:' + '[averageScore]')
+		} else {
+		}
+	}
 
-  function isBackBtnDisabled(){
-    if (!counter){
-      backBtn.disabled = true;
-    } else {
-      backBtn.disabled = false;
-    }
-  }
+	function isBackBtnDisabled(){
+		if (counter == 0){
+			backBtn.disabled = true;
+		} else {
+			backBtn.disabled = false;
+		}
+
+	}
+
+	// function finalScore(){
+
+	// }
+
 });
 
-// Upon reaching the last image (7% = 0?), print "'You have reached the end. Total deliciousness score was:' + ' [averageScore]'"
+// Upon reaching the last image, print "'You have reached the end. Total deliciousness score was:' + ' [averageScore]'"
 
 
 
