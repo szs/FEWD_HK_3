@@ -26,7 +26,7 @@ Let's bring HTML/CSS back into the equation.
 
 
 ## HTML and CSS Review
-<aside class="notes">(20 mins)</aside>
+<aside class="notes">Kit (30 mins)</aside>
 
 Use boxing.css to create the layout as shown in Boxes.png.
 
@@ -35,7 +35,7 @@ Use boxing.css to create the layout as shown in Boxes.png.
 
 
 ## HTML and CSS Review
-<aside class="notes">(20 mins)</aside>
+<aside class="notes">Kit (30 mins)</aside>
 
 Comment boxing.css and uncomment the boxing-mobile.css. Use it to create the layout as shown in Mobile_Boxes.png.
 
@@ -44,12 +44,12 @@ Comment boxing.css and uncomment the boxing-mobile.css. Use it to create the lay
 
 
 ## Fixed Layout VS Responsive Layout
-<aside class="notes">(20 mins)</aside>
+<aside class="notes">Kit (10 mins)</aside>
 
 
 
 ## Fixed Layout
-<aside class="notes">(20 mins)</aside>
+<aside class="notes"></aside>
 
 * Used up to this point
 * Relies on a container of fixed width
@@ -94,7 +94,7 @@ Checkout these __Responsive__ Sites
 
 
 ## Size units in HTML and CSS
-<aside class="notes"></aside>
+<aside class="notes">Kit (30 mins)</aside>
 
 Size unit in HTML [w3schools](http://www.w3schools.com/cssref/css_units.asp)
 
@@ -178,7 +178,7 @@ __em__ and __px__ would be in 1 : 10 ratio.
 
 
 ## Media Queries
-<aside class="notes">(30 Min)</aside>
+<aside class="notes">Mart (40 Min)</aside>
 
 ```bash
 media_query_list: <media_query> [, <media_query> ]*
@@ -253,8 +253,20 @@ And here are some media queries for standard devices.
 
 
 ## Apply the media query to the Boxes exercise.
-<aside class="notes"></aside>
+<aside class="notes">Mart (30 mins)</aside>
 
 Uncomment and complete the boxing-media-query.css by referring to what you have written previously.
+
+![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
+
+
+
+## Homework
+<aside class="notes">
+  This is the lab in the next lesson. We can introduce it if we have time.
+  Other we could take the remaining time for the Advanced JS in the Memory game exercise.
+</aside>
+
+Startup Matchmaker Responsive
 
 ![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
