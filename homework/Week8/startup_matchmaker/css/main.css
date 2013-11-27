@@ -239,3 +239,54 @@ nav ul {
 	}
 
 }
+
+
+/*============= MEDIA QUERY 2 ==============*/
+
+@media all and (min-width: 120px) and (max-width: 519px) {
+
+	.blurb {
+		width: 90%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.tout p {
+		display: none;
+	}
+
+	nav ul {
+		display: none;
+		position: absolute;
+		background-color: black;
+		opacity: 0.8;
+		right: 20px;
+		}
+
+	#page-header #navbutton{
+		display: block;
+		width: 80px;
+		position: absolute;
+		right: 20px;
+		top: 17px;
+		margin-bottom: 20px;
+	}
+
+
+	.card {
+		width: 48%;
+	}
+
+	#page-header nav li {
+		float: none;
+	}
+
+	#page-header h1 {
+		float: none;
+	}
+
+}
+
+*{
+	transition: all 300 bounce;
+}
