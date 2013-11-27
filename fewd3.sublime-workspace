@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
 				"user",
 				"userInput"
 			],
@@ -16,10 +48,6 @@
 				"padding-bottom"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"font",
 				"font-size"
 			],
@@ -28,16 +56,8 @@
 				"background-color"
 			],
 			[
-				"backgroun",
-				"background-size"
-			],
-			[
 				"hei",
 				"min-height"
-			],
-			[
-				"back",
-				"background-size"
 			],
 			[
 				"bottom",
@@ -54,10 +74,6 @@
 			[
 				"text-",
 				"text-align"
-			],
-			[
-				"padding",
-				"padding-right"
 			],
 			[
 				"in",
@@ -92,10 +108,18 @@
 	"buffers":
 	[
 		{
-			"file": "lesson8/homework/rock_paper_scissors/js/main.js",
+			"file": "lesson13/class_labs/boxes/index.html",
 			"settings":
 			{
-				"buffer_size": 2460,
+				"buffer_size": 1237,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lesson13/class_labs/boxes/css/boxing-media-query.css",
+			"settings":
+			{
+				"buffer_size": 2449,
 				"line_ending": "Unix"
 			}
 		}
@@ -103,9 +127,33 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 87.0,
 		"selected_items":
 		[
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git custom",
+				"Git: Custom Command"
+			],
+			[
+				"git cus",
+				"Git: Custom Command"
+			],
 			[
 				"comm",
 				"Git: Commit"
@@ -119,20 +167,8 @@
 				"Git: Add Current File"
 			],
 			[
-				"git add",
-				"Git: Add Current File"
-			],
-			[
 				"git diff",
 				"Git: Diff All"
-			],
-			[
-				"git custom",
-				"Git: Custom Command"
-			],
-			[
-				"git push",
-				"Git: Push"
 			],
 			[
 				"git comm",
@@ -259,7 +295,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 580.0
+		"width": 515.0
 	},
 	"console":
 	{
@@ -276,9 +312,15 @@
 	},
 	"file_history":
 	[
-		"/Users/szs/Code/FEWD_HK_3/homework/Week6/carousel_obfuscated/css/style.css",
+		"/Users/szs/Code/FEWD_HK_3/lesson13/class_labs/boxes/css/boxing.css",
+		"/Users/szs/Code/FEWD_HK_3/lesson13/class_labs/boxes/css/boxing-mobile.css",
 		"/Users/szs/Code/FEWD_HK_3/homework/Week6/carousel_obfuscated/js/index.js",
+		"/Users/szs/Code/FEWD_HK_3/homework/Week6/carousel_obfuscated/css/style.css",
 		"/Users/szs/Code/FEWD_HK_3/homework/Week6/carousel_obfuscated/index.html",
+		"/Users/szs/Code/FEWD_HK_3/lesson13/class_labs/boxes/Mobile_Boxes.png",
+		"/Users/szs/Code/FEWD_HK_3/lesson11/starter_code/matching-obfuscated/index.html",
+		"/Users/szs/Code/FEWD_HK_3/lesson11/starter_code/matching-obfuscated/js/main.js",
+		"/Users/szs/Code/FEWD_HK_3/lesson8/homework/rock_paper_scissors/js/main.js",
 		"/Users/szs/Code/FEWD_HK_3/fewd3.sublime-project",
 		"/Users/szs/Code/FEWD_HK_3/homework/Week6/index.js",
 		"/Users/szs/Code/FEWD_HK_3/homework/Week4/index.html",
@@ -296,7 +338,6 @@
 		"/Users/szs/FEWD_HK_3/homework/week1/index.html",
 		"/Users/szs/Desktop/BUPLAS/index.html",
 		"/Users/szs/Desktop/BUPLAS/readme.md",
-		"/Users/szs/Code/FEWD_HK_3/lesson8/homework/rock_paper_scissors/js/main.js",
 		"/Users/szs/Downloads/noun_project_5424.svg",
 		"/Users/szs/Downloads/gist5715356-ea1c9f9b7b1459f2d8f6f4fba77c63d52e05a700/xkcd.js",
 		"/Users/szs/Downloads/gist5715356-ea1c9f9b7b1459f2d8f6f4fba77c63d52e05a700/index.html",
@@ -320,6 +361,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"inline",
+			"float",
+			"width",
+			";\n",
+			"total",
+			"select",
 			"bottom",
 			"right",
 			"img",
@@ -362,28 +409,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "lesson8/homework/rock_paper_scissors/js/main.js",
+					"file": "lesson13/class_labs/boxes/index.html",
 					"settings":
 					{
-						"buffer_size": 2460,
+						"buffer_size": 1237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								344,
-								344
+								879,
+								879
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 328.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -391,14 +437,41 @@
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "lesson13/class_labs/boxes/css/boxing-media-query.css",
+					"settings":
+					{
+						"buffer_size": 2449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1598,
+								1598
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1995.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"input":
 	{
